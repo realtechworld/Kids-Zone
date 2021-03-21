@@ -1,0 +1,103 @@
+h1{
+  font-size:25px;
+  font-family: georgia;
+
+}
+.logo{
+  background-image: url('header.jpg');
+ padding:0.5px;
+background-repeat:100px;
+  
+}
+body{
+  margin:0;
+  background-color:#2ECCFA;
+  background-repeat: no-repeat;
+  background-size: auto;
+  
+}
+ul{
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 20px;
+ 
+  
+}
+li{
+  float: right;
+  border-right: 1px ;
+}
+
+li a {
+  display: block;
+  color:whitesmoke;
+  font-family: georgia;
+  
+  padding: 21px 14px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color:rgb(5, 102, 29);
+
+}
+li a:hover:not(.active){
+  background-color: teal;
+}
+.active{
+  background-color: tomato;
+}
+footer{
+ position: fixed;
+  bottom: 0;
+  font-size:20px;
+}
+.contact{
+  font-size: x-large;
+  font-family: georgia;
+  display: grid;
+}
+iframe{
+  width:50%;
+  display: grid;
+  grid-column: 2;
+    grid-row: 2;
+}
+p{
+  font-size: x-large;
+  float:right;
+  width: 530px;
+}
+form{
+  float: right;
+  font-size: x-large;
+  padding: 20px;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
